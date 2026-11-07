@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>秘密研究所-未公开实验档案与都市传说_神秘事件_超自然调查</title>
+<meta name="description" content="秘密研究所专题聚合未公开实验档案、都市传说、超自然调查与神秘事件深度解析。涵盖实验体记录、异常现象报告、知情者口述与最新追踪更新，适合猎奇探索、神秘学爱好者收藏与延伸阅读。">
+<meta name="keywords" content="秘密研究所,未公开实验,都市传说,超自然调查,神秘事件档案">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231a1f2e'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='%23e6b422' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23e6b422'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f7f5f0;
+  --surface:#ffffff;
+  --ink:#1e1e1e;
+  --muted:#5d5d5d;
+  --line:#e2ddd3;
+  --accent:#1a1f2e;
+  --gold:#b8860b;
+  --gold-soft:#e6b422;
+  --tag-bg:#f0ece2;
+  --shadow:0 2px 12px rgba(0,0,0,.05);
+  --radius:10px;
+  --maxw:1200px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height:1.65;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+/* header */
+.site-header{
+  background:var(--surface);
+  border-bottom:1px solid var(--line);
+  position:sticky;
+  top:0;
+  z-index:50;
+  backdrop-filter: blur(6px);
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:12px 0;
+  flex-wrap:wrap;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:700;
+  font-size:1.3rem;
+  letter-spacing:.5px;
+  color:var(--accent);
+}
+.brand-mark{
+  width:36px;height:36px;
+  border-radius:8px;
+  background:var(--accent);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--gold-soft);
+  font-size:1rem;
+  font-weight:800;
+}
+.nav-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px 18px;
+  font-size:.92rem;
+  color:var(--muted);
+}
+.nav-links a:hover{color:var(--accent);}
+.nav-links a{transition:color .15s;}
+/* banner */
+.hero{
+  background: linear-gradient(135deg, #1a1f2e 0%, #2c3448 100%);
+  color:#f0ece2;
+  border-radius: var(--radius);
+  margin-top:24px;
+  padding:40px 36px;
+  position:relative;
+  overflow:hidden;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  right:-40px;top:-40px;
+  width:240px;height:240px;
+  border-radius:50%;
+  background: radial-gradient(circle, rgba(230,180,34,.18) 0%, transparent 70%);
+  pointer-events:none;
+}
+.hero h1{
+  font-size:2.1rem;
+  line-height:1.3;
+  font-weight:800;
+  margin-bottom:12px;
+  letter-spacing:.5px;
+}
+.hero h1 span{color:var(--gold-soft);}
+.hero p{
+  font-size:1rem;
+  max-width:720px;
+  opacity:.88;
+  margin-bottom:20px;
+}
+.hero-search{
+  display:flex;
+  gap:10px;
+  max-width:520px;
+  margin-bottom:24px;
+  flex-wrap:wrap;
+}
+.hero-search input{
+  flex:1;
+  min-width:180px;
+  padding:12px 16px;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.1);
+  color:#fff;
+  font-size:.95rem;
+  outline:none;
+  backdrop-filter: blur(4px);
+}
+.hero-search input::placeholder{color:rgba(255,255,255,.55);}
+.hero-search button{
+  padding:12px 22px;
+  border-radius:8px;
+  border:none;
+  background:var(--gold-soft);
+  color:#1a1f2e;
+  font-weight:700;
+  cursor:pointer;
+  font-size:.95rem;
+  transition:background .2s;
+}
+.hero-search button:hover{background:#f0c94a;}
+.hero-btns{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.hero-btns a{
+  padding:8px 18px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,.25);
+  font-size:.88rem;
+  color:#f0ece2;
+  transition: background .2s, border-color .2s;
+}
+.hero-btns a:hover{
+  background:rgba(255,255,255,.1);
+  border-color:var(--gold-soft);
+}
+/* section */
+.section{
+  margin:40px 0;
+}
+.section-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:20px;
+  flex-wrap:wrap;
+}
+.section-head h2{
+  font-size:1.4rem;
+  font-weight:700;
+  color:var(--accent);
+  letter-spacing:.3px;
+}
+.section-head .sub{
+  font-size:.88rem;
+  color:var(--muted);
+}
+/* 卡片网格 */
+.card-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap:20px;
+}
+.card{
+  background:var(--surface);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  border:1px solid var(--line);
+  padding:18px;
+  transition: transform .18s ease, box-shadow .18s ease;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+.card-cover{
+  width:100%;
+  height:110px;
+  border-radius:8px;
+  background: linear-gradient(135deg, #d9d2c5 0%, #c4bbaa 100%);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:.8rem;
+  color:#5d5d5d;
+  letter-spacing:1px;
+  font-weight:600;
+}
+.card h3{
+  font-size:1.05rem;
+  font-weight:700;
+  color:var(--accent);
+  line-height:1.4;
+}
+.card .tag-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.tag{
+  display:inline-block;
+  padding:2px 10px;
+  border-radius:12px;
+  font-size:.75rem;
+  background:var(--tag-bg);
+  color:#4a4a4a;
+  line-height:1.6;
+}
+.tag-gold{
+  background:#fdf3d9;
+  color:#8a6d0b;
+}
+.card-desc{
+  font-size:.86rem;
+  color:var(--muted);
+  line-height:1.55;
+  flex:1;
+}
+.card-meta{
+  display:flex;
+  justify-content:space-between;
+  font-size:.78rem;
+  color:#8a8a8a;
+  padding-top:6px;
+  border-top:1px dashed var(--line);
+}
+/* 更新列表 */
+.update-list{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  background:var(--surface);
+  border-radius:var(--radius);
+  border:1px solid var(--line);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+.update-item{
+  display:flex;
+  align-items:flex-start;
+  gap:16px;
+  padding:16px 20px;
+  border-bottom:1px solid var(--line);
+  transition:background .15s;
+}
+.update-item:last-child{border-bottom:none;}
+.update-item:hover{background:#faf8f4;}
+.update-time{
+  font-size:.8rem;
+  color:#8a8a8a;
+  min-width:64px;
+  padding-top:2px;
+  font-variant-numeric: tabular-nums;
+}
+.update-content{flex:1;}
+.update-content strong{
+  display:block;
+  font-size:.95rem;
+  color:var(--accent);
+  margin-bottom:2px;
+}
+.update-content p{
+  font-size:.85rem;
+  color:var(--muted);
+  line-height:1.55;
+}
+/* 分类入口 */
+.cat-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px,1fr));
+  gap:12px;
+}
+.cat-item{
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px 12px;
+  text-align:center;
+  font-size:.92rem;
+  font-weight:600;
+  color:var(--accent);
+  box-shadow:var(--shadow);
+  transition: transform .15s, border-color .15s;
+}
+.cat-item:hover{
+  transform:translateY(-2px);
+  border-color:var(--gold-soft);
+}
+.cat-item span{
+  display:block;
+  font-size:.75rem;
+  font-weight:400;
+  color:var(--muted);
+  margin-top:4px;
+}
+/* 深度解析 */
+.article-box{
+  background:var(--surface);
+  border-radius:var(--radius);
+  border:1px solid var(--line);
+  box-shadow:var(--shadow);
+  padding:28px 30px;
+}
+.article-box h2{
+  font-size:1.45rem;
+  font-weight:700;
+  color:var(--accent);
+  margin-bottom:16px;
+}
+.article-box h3{
+  font-size:1.1rem;
+  font-weight:700;
+  color:var(--accent);
+  margin:22px 0 10px;
+}
+.article-box p{
+  font-size:.95rem;
+  color:#3a3a3a;
+  margin-bottom:14px;
+  line-height:1.75;
+}
+/* FAQ */
+.faq-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.faq-card{
+  background:var(--surface);
+  border-radius:var(--radius);
+  border:1px solid var(--line);
+  padding:20px 22px;
+  box-shadow:var(--shadow);
+}
+.faq-card h3{
+  font-size:.98rem;
+  font-weight:700;
+  color:var(--accent);
+  margin-bottom:8px;
+  display:flex;
+  gap:8px;
+}
+.faq-card h3::before{
+  content:"?";
+  color:var(--gold-soft);
+  font-weight:800;
+}
+.faq-card p{
+  font-size:.88rem;
+  color:var(--muted);
+  line-height:1.65;
+}
+/* 评论 */
+.comment-list{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.comment-item{
+  background:var(--surface);
+  border-radius:var(--radius);
+  border:1px solid var(--line);
+  padding:14px 18px;
+  box-shadow:var(--shadow);
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+.avatar{
+  width:36px;height:36px;
+  border-radius:50%;
+  background:var(--accent);
+  color:var(--gold-soft);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;
+  font-size:.8rem;
+  flex-shrink:0;
+}
+.comment-body{flex:1;}
+.comment-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  margin-bottom:4px;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.comment-name{
+  font-weight:700;
+  font-size:.9rem;
+  color:var(--accent);
+}
+.comment-date{
+  font-size:.75rem;
+  color:#9a9a9a;
+}
+.comment-text{
+  font-size:.88rem;
+  color:#3f3f3f;
+  line-height:1.6;
+}
+/* 资讯 */
+.news-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+  gap:16px;
+}
+.news-card{
+  background:var(--surface);
+  border-radius:var(--radius);
+  border:1px solid var(--line);
+  box-shadow:var(--shadow);
+  padding:18px;
+  transition: transform .15s;
+}
+.news-card:hover{transform:translateY(-2px);}
+.news-card .news-date{
+  font-size:.78rem;
+  color:#9a9a9a;
+  margin-bottom:6px;
+}
+.news-card h3{
+  font-size:.98rem;
+  font-weight:700;
+  color:var(--accent);
+  margin-bottom:6px;
+  line-height:1.4;
+}
+.news-card p{
+  font-size:.84rem;
+  color:var(--muted);
+  line-height:1.55;
+}
+/* footer */
+.site-footer{
+  background:var(--accent);
+  color:#b8b3a8;
+  margin-top:60px;
+  padding:40px 0 30px;
+  font-size:.85rem;
+}
+.footer-inner{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap:30px;
+}
+.footer-col{flex:1;min-width:180px;}
+.footer-col h4{
+  color:#e8e3d8;
+  font-size:.95rem;
+  margin-bottom:10px;
+  font-weight:700;
+}
+.footer-col p{line-height:1.7;margin-bottom:6px;}
+.footer-col a{color:#b8b3a8;transition:color .15s;}
+.footer-col a:hover{color:var(--gold-soft);}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);
+  margin-top:30px;
+  padding-top:20px;
+  text-align:center;
+  font-size:.8rem;
+  color:#8d897f;
+}
+/* 响应式 */
+@media (max-width:820px){
+  .faq-grid{grid-template-columns:1fr;}
+  .hero{padding:28px 20px;}
+  .hero h1{font-size:1.6rem;}
+  .header-inner{flex-direction:column;align-items:flex-start;gap:8px;}
+  .nav-links{font-size:.82rem;gap:4px 12px;}
+  .article-box{padding:20px 18px;}
+}
+@media (max-width:560px){
+  .card-grid{grid-template-columns:1fr;}
+  .news-grid{grid-template-columns:1fr;}
+  .cat-grid{grid-template-columns:repeat(2,1fr);}
+  .hero-btns a{font-size:.8rem;padding:6px 14px;}
+  .update-item{flex-direction:column;gap:4px;}
+  .update-time{min-width:auto;}
+  .comment-item{flex-direction:column;gap:6px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 顶部导航 -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <span class="brand-mark">秘</span>
+      <span>秘密研究所</span>
+    </div>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="/#hot">热门档案</a>
+      <a href="/#latest">最新更新</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#category">分类索引</a>
+      <a href="/#faq">常见疑问</a>
+      <a href="/#comments">读者评论</a>
+      <a href="/#news">追踪资讯</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- Banner -->
+  <section class="hero" id="hero">
+    <h1>秘密研究所 · 未公开实验与都市传说档案库</h1>
+    <p>追踪那些未进入官方记录的实验项目、异常现象与知情者口述。从实验体编号到地下设施传闻，这里汇集了关于秘密研究所的碎片化信息与深度整理，适合猎奇探索者与神秘学爱好者收藏阅读。</p>
+    <p style="font-size:.9rem;opacity:.75;">收录超200份未解档案 · 每周更新追踪报告 · 多角度交叉验证</p>
+    <div class="hero-search">
+      <input type="text" placeholder="搜索实验编号 / 事件名称 / 关键词" aria-label="搜索框">
+      <button type="button">开始检索</button>
+    </div>
+    <div class="hero-btns">
+      <a href="/#hot">热门档案</a>
+      <a href="/#latest">最新更新</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#category">分类索引</a>
+      <a href="/#faq">常见疑问</a>
+      <a href="/#news">追踪资讯</a>
+      <a href="/#comments">读者评论</a>
+    </div>
+  </section>
+
+  <!-- 内容简介 -->
+  <section class="section" id="intro">
+    <div class="article-box">
+      <h2>关于秘密研究所：为什么值得你花时间翻阅</h2>
+      <p>“秘密研究所”这个词在都市传说、悬疑叙事和未解事件爱好者圈子里反复出现。它可能指向一个真实存在的实验机构，也可能是一系列匿名爆料、口述档案与网络拼图共同构建的集体想象。无论你把它当作都市怪谈的经典母题，还是对未公开实验项目的持续追踪，这个专题都试图提供相对系统的信息聚合。</p>
+      <p>我们整理了来自公开档案、知情者口述、历史剪报与网络讨论的碎片内容，围绕实验体记录、异常现象报告、设施传闻、组织架构猜想等方向进行归类。页面内容适合以下人群：喜欢都市传说与神秘事件的普通读者、对未公开实验档案有研究兴趣的爱好者、寻找悬疑创作素材的内容创作者，以及单纯想找点“后背发凉”阅读体验的夜猫子。</p>
+      <p>与零散帖子不同，这里提供了分类索引、时间线梳理、FAQ答疑和持续更新入口。你可以按兴趣跳转，也可以从头浏览建立整体认知。建议收藏本页，方便随时回看最新追踪动态。</p>
+    </div>
+  </section>
+
+  <!-- 热门档案推荐 -->
+  <section class="section" id="hot">
+    <div class="section-head">
+      <h2>热门档案推荐</h2>
+      <span class="sub">近30天访问量最高的未解条目</span>
+    </div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-cover">档案封面 01</div>
+        <h3>实验体K-17的异常记录</h3>
+        <div class="tag-row"><span class="tag tag-gold">核心档案</span><span class="tag">实验体</span><span class="tag">生理异常</span></div>
+        <p class="card-desc">编号K-17的观察日志在1987年突然中断，最后三页被撕毁。这份残档记录了连续43天的心率与体温异常波动，以及一段难以解释的声纹记录。</p>
+        <div class="card-meta"><span>热度 9.8万</span><span>更新于 2026-10-28</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 02</div>
+        <h3>地下三层平面图流出事件</h3>
+        <div class="tag-row"><span class="tag tag-gold">设施</span><span class="tag">平面图</span><span class="tag">地下结构</span></div>
+        <p class="card-desc">2019年某匿名论坛出现一张标注“秘密研究所地下三层”的手绘平面图，包含通风井、隔离舱与一条未标注的斜向通道。图纸真伪至今未有定论。</p>
+        <div class="card-meta"><span>热度 7.2万</span><span>更新于 2026-10-15</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 03</div>
+        <h3>“回声计划”知情者口述整理</h3>
+        <div class="tag-row"><span class="tag">口述史</span><span class="tag tag-gold">计划代号</span><span class="tag">音频</span></div>
+        <p class="card-desc">一位自称参与过后勤工作的匿名者留下72分钟录音，提到“回声计划”涉及重复性感官剥夺实验。录音中段有7分钟空白，背景可闻规律性敲击声。</p>
+        <div class="card-meta"><span>热度 6.5万</span><span>更新于 2026-10-02</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 04</div>
+        <h3>1993年森林异常辐射报告</h3>
+        <div class="tag-row"><span class="tag">异常现象</span><span class="tag">环境数据</span><span class="tag tag-gold">历史档案</span></div>
+        <p class="card-desc">一份地方环保部门的旧报告显示，某林区出现局部辐射值升高，但未发现放射源。报告建议“进一步联合调查”，后续记录缺失。</p>
+        <div class="card-meta"><span>热度 5.9万</span><span>更新于 2026-09-20</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 05</div>
+        <h3>“灰室”实验的心理评估摘要</h3>
+        <div class="tag-row"><span class="tag tag-gold">心理学</span><span class="tag">感觉剥夺</span><span class="tag">评估</span></div>
+        <p class="card-desc">据称“灰室”是秘密研究所内部对一间全吸音、无光房间的称呼。一份心理评估摘要提到受试者在72小时后出现时间感知紊乱与幻听。</p>
+        <div class="card-meta"><span>热度 5.1万</span><span>更新于 2026-09-11</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 06</div>
+        <h3>通讯截获：编号无法归类的信号</h3>
+        <div class="tag-row"><span class="tag">信号情报</span><span class="tag tag-gold">待解密</span><span class="tag">短波</span></div>
+        <p class="card-desc">业余无线电爱好者在特定频段录到一段规律脉冲信号，解码后得到一组坐标与日期，但坐标指向的公海区域并无任何已知设施。</p>
+        <div class="card-meta"><span>热度 4.7万</span><span>更新于 2026-08-29</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 07</div>
+        <h3>前员工匿名信全文与笔迹分析</h3>
+        <div class="tag-row"><span class="tag">匿名信</span><span class="tag">笔迹</span><span class="tag tag-gold">文本分析</span></div>
+        <p class="card-desc">信件提到“实验楼西翼的电梯只有下行按钮”，并附有一张手绘走廊示意图。笔迹专家认为书写者刻意改变运笔习惯，但左撇子特征明显。</p>
+        <div class="card-meta"><span>热度 4.2万</span><span>更新于 2026-08-14</span></div>
+      </div>
+      <div class="card">
+        <div class="card-cover">档案封面 08</div>
+        <h3>“镜面走廊”视觉错觉报告</h3>
+        <div class="tag-row"><span class="tag tag-gold">建筑异常</span><span class="tag">视觉</span><span class="tag">空间感知</span></div>
+        <p class="card-desc">多名自称到访过秘密研究所外围的人员提到一条“看起来比实际长得多”的走廊。建筑心理学爱好者从空间比例与照明角度给出了一种解释。</p>
+        <div class="card-meta"><span>热度 3.8万</span><span>更新于 2026-07-30</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 最新更新 -->
+  <section class="section" id="latest">
+    <div class="section-head">
+      <h2>最新更新与追踪动态</h2>
+      <span class="sub">截至2026年11月7日</span>
+    </div>
+    <div class="update-list">
+      <div class="update-item">
+        <span class="update-time">11-07</span>
+        <div class="update-content"><strong>新增口述片段：关于“第四层”的模糊描述</strong><p>一位匿名投稿者提到在秘密研究所相关讨论中听过“第四层不存在于任何图纸上”的说法，并附了一段13秒的环境音。音频已上传至档案库，等待比对。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">11-06</span>
+        <div class="update-content"><strong>“回声计划”录音背景敲击声完成频谱分析</strong><p>技术爱好者对录音中7分钟空白后的敲击声进行了频谱比对，发现节奏模式与已知莫尔斯码变体存在部分吻合，但内容尚无法完全解码。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">11-05</span>
+        <div class="update-content"><strong>1993年森林辐射报告新增地方志对照</strong><p>有读者提供了同年地方报纸的剪报扫描件，显示相邻乡镇曾短暂开展“环境整治”，但报道未提及任何辐射相关内容。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">11-04</span>
+        <div class="update-content"><strong>地下三层平面图出现第二版本</strong><p>匿名论坛再次出现一张相似手绘平面图，标注了更多房间编号，但走廊走向与第一版存在明显矛盾。两版图纸已并列展示。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">11-03</span>
+        <div class="update-content"><strong>新增“秘密研究所”相关影视作品条目</strong><p>一部2026年秋季上线的悬疑迷你剧使用了同名虚构机构设定。我们整理了剧集与既有都市传说的相似点与差异，供读者对照观看。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">11-02</span>
+        <div class="update-content"><strong>实验体K-17档案新增纸张年代检测说明</strong><p>有档案保护爱好者对残档纸张的纤维形态提出年代疑问。我们补充了关于纸张来源的几种可能性说明，并标注了待验证部分。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">11-01</span>
+        <div class="update-content"><strong>“灰室”心理评估摘要新增学术旁注</strong><p>一位心理学在读研究生撰写了关于感觉剥夺实验伦理边界的简述，作为背景补充加入档案页面，帮助读者理解相关实验的历史语境。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">10-31</span>
+        <div class="update-content"><strong>通讯截获信号新增坐标海域地图标注</strong><p>根据读者反馈，我们在地图页面标注了信号解码坐标所指向的公海区域，并补充了该海域的航运密度与已知设施分布情况。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">10-30</span>
+        <div class="update-content"><strong>前员工匿名信笔迹分析报告发布</strong><p>笔迹分析爱好者提供了更详细的运笔压力与倾斜角对比，认为书写者可能接受过刻意改变字迹的训练，但样本量有限，结论仅供参考。</p></div>
+      </div>
+      <div class="update-item">
+        <span class="update-time">10-29</span>
+        <div class="update-content"><strong>“镜面走廊”新增建筑学视角解读</strong><p>一位建筑设计师从透视比例、照度均匀度和地面反射率角度分析，认为“走廊变长”的错觉完全可以通过常规建筑手法实现。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 分类入口 -->
+  <section class="section" id="category">
+    <div class="section-head">
+      <h2>档案分类索引</h2>
+      <span class="sub">按兴趣方向快速定位</span>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-item">实验体记录<span>编号与观察日志</span></div>
+      <div class="cat-item">设施与建筑<span>平面图与空间传闻</span></div>
+      <div class="cat-item">计划代号<span>回声计划等</span></div>
+      <div class="cat-item">口述与匿名信<span>第一人称叙述</span></div>
+      <div class="cat-item">异常现象<span>辐射与信号</span></div>
+      <div class="cat-item">组织架构猜想<span>人员与层级</span></div>
+      <div class="cat-item">时间线<span>历史事件梳理</span></div>
+      <div class="cat-item">流行文化<span>影视与游戏引用</span></div>
+    </div>
+  </section>
+
+  <!-- 深度解析 -->
+  <section class="section" id="deep">
+    <div class="article-box">
+      <h2>深度解析：秘密研究所为什么持续吸引注意力</h2>
+      <p>秘密研究所作为一个悬疑母题，其吸引力并不完全依赖于“是否真实存在”这个问题的答案。更关键的是，它提供了一套可以不断扩展的叙事框架：编号、隔离、观察、异常数据、残缺档案。这些元素组合在一起，天然适合口耳相传和二次创作。本段将从几个常见角度拆解这个主题，帮助你建立更有层次的阅读视角。</p>
+
+      <h3>一、实验体编号体系与档案缺口</h3>
+      <p>在关于秘密研究所的讨论中，实验体编号是出现频率最高的细节之一。K-17、M-04、R-09这类代号之所以让人印象深刻，是因为它们暗示了一套完整的分类和管理系统——有编号就意味着有记录，有记录就意味着有缺口。而缺口恰恰是想象力的入口。你会发现大多数高传播度的档案都附带“缺失几页”“录音中断”“照片曝光过度”之类的描述。这些刻意保留的不完整感，让读者自动进入“拼图模式”。需要提醒的是，编号和对应描述均来自公开网络讨论与匿名投稿，并非官方记录，阅读时请保持理性判断。</p>
+
+      <h3>二、地下空间与建筑异常的魅力</h3>
+      <p>地下三层、未标注斜向通道、只有下行按钮的电梯——这些建筑细节之所以比单纯的“恐怖故事”更耐人寻味，是因为它们带有工程逻辑的外壳。人们更容易相信一个包含通风井、隔离舱和消防通道的平面图，而不是一句空泛的“里面很可怕”。从建筑学和环境心理学的角度，某些“异常感”完全可以通过空间比例、照明设计和材料反射来解释，但这并不妨碍它们成为精彩的故事素材。本专题收录的平面图与走廊描述，均标注了来源和可信度层级，方便你自行取舍。</p>
+
+      <h3>三、感官剥夺与“灰室”类实验的伦理讨论</h3>
+      <p>“灰室”相关的心理评估摘要触及了一个现实世界中确实存在过的实验类型——感觉剥夺。在二十世纪的心理学研究中，感官剥夺实验曾短暂流行，随后因伦理争议而大幅收紧。秘密研究所传说中关于“72小时后出现时间感知紊乱”的说法，与公开的学术文献有一定相似之处，但具体细节和后果被明显戏剧化了。了解这一点，可以帮助你区分“都市传说中夸张化的版本”与“有据可查的实验史”。对于内容创作者来说，这种区分反而能提供更扎实的创作素材。</p>
+
+      <h3>四、匿名信、录音与“证据链”的修辞</h3>
+      <p>匿名信提到“西翼电梯只有下行按钮”，录音里出现“规律性敲击声”，这些细节之所以让人后背发凉，是因为它们采用了证据链式的叙述方式。信件有笔迹分析，录音有频谱比对，信号有坐标和日期——整套修辞模仿了调查报道的严谨感。但作为读者，我们需要意识到：这些材料大多来自匿名投稿和爱好者分析，未经独立核实。本专题的价值不在于“证明什么”，而在于把分散的材料归拢到一起，让你看到不同来源之间可能存在的呼应或矛盾。带着批判性眼光阅读，乐趣不会减少，反而会更多。</p>
+
+      <h3>五、适合哪些读者，以及如何开始</h3>
+      <p>如果你刚接触这个主题，建议从“热门档案”前三个条目开始，先建立对基本元素的熟悉感，再进入“最新更新”了解近期动态。如果你更偏爱理性分析，可以直接跳到FAQ和深度解析部分，看看常见疑问和不同角度的解读。若你是内容创作者，分类索引中的“口述与匿名信”“设施与建筑”两个方向可能提供最丰富的细节素材。无论哪种路径，都建议把页面加入收藏，因为追踪类内容会持续更新。</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="section-head">
+      <h2>常见疑问</h2>
+      <span class="sub">关于秘密研究所的典型问题</span>
+    </div>
+    <div class="faq-grid">
+      <div class="faq-card">
+        <h3>秘密研究所是真实存在的机构吗？</h3>
+        <p>目前没有可靠的公开证据能确认其存在。绝大多数流传材料来自匿名投稿、都市传说和网络二次创作。本专题收录的内容均标注了来源类型，建议将其视为悬疑文化素材而非确凿事实。如果你在寻找完全可验证的机构信息，可能需要转向正规档案查询渠道。</p>
+      </div>
+      <div class="faq-card">
+        <h3>第一次接触这个主题，应该从哪看起？</h3>
+        <p>建议按“热门档案→深度解析→最新更新”的顺序浏览。先通过热门条目熟悉核心元素和叙事风格，再读深度解析建立分析框架，最后看更新动态了解近期讨论热点。这样不容易被碎片化信息带偏，也能更快形成自己的判断。</p>
+      </div>
+      <div class="faq-card">
+        <h3>实验体编号和“回声计划”有官方来源吗？</h3>
+        <p>没有。编号体系和计划代号均来自网络匿名叙述与爱好者整理，未发现可追溯至官方档案的直接证据。我们在条目中保留了“待验证”标注，并附上了不同来源之间的差异说明，方便读者交叉比对。</p>
+      </div>
+      <div class="faq-card">
+        <h3>页面里的平面图和录音可以转载吗？</h3>
+        <p>专题内展示的平面图均为根据匿名描述重绘的示意图，并非原始文件；录音描述为文字转述，不提供原始音频下载。如需引用相关内容进行创作或讨论，建议注明来自公开网络讨论汇编，并保留待验证说明，避免造成误导。</p>
+      </div>
+      <div class="faq-card">
+        <h3>为什么有些档案更新频繁，有些很久不更新？</h3>
+        <p>更新频率取决于是否有新的投稿、讨论或分析材料出现。热门条目通常会有更多读者反馈和技术分析补充，因此更新较快；冷门条目可能长期保持原状。如果你对某个条目有补充信息，可以通过页面底部的反馈入口提交。</p>
+      </div>
+      <div class="faq-card">
+        <h3>有没有类似的专题或延伸阅读推荐？</h3>
+        <p>本页的“分类索引”和“追踪资讯”模块会指向相关方向，包括设施传闻、口述档案、异常现象等。此外，深度解析中提到的感觉剥夺实验史、建筑心理学等真实学科方向，也可以作为延伸阅读的起点。后续我们也会整理同类都市传说专题的入口。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 用户评论 -->
+  <section class="section" id="comments">
+    <div class="section-head">
+      <h2>读者评论</h2>
+      <span class="sub">近期30天内留言精选</span>
+    </div>
+    <div class="comment-list">
+      <div class="comment-item"><div class="avatar">夜</div><div class="comment-body"><div class="comment-head"><span class="comment-name">夜航星</span><span class="comment-date">2026-11-06</span></div><p class="comment-text">K-17那个档案里的声纹记录部分看得我起鸡皮疙瘩，但冷静下来想想，没有原始音频确实不好判断。不过作为睡前读物效果拉满。</p></div></div>
+      <div class="comment-item"><div class="avatar">档</div><div class="comment-body"><div class="comment-head"><span class="comment-name">档案夹没夹好</span><span class="comment-date">2026-11-05</span></div><p class="comment-text">平面图两版矛盾这个点很有意思，我倾向于认为第二版是后来的人根据第一版想象补充的，房间编号的字体风格都不一样。</p></div></div>
+      <div class="comment-item"><div class="avatar">回</div><div class="comment-body"><div class="comment-head"><span class="comment-name">回声爱好者</span><span class="comment-date">2026-11-04</span></div><p class="comment-text">“回声计划”录音背景的敲击声我反复听了好几遍，节奏确实像某种编码，但信息量太少了，解不出来。希望有更多技术流大佬参与分析。</p></div></div>
+      <div class="comment-item"><div class="avatar">理</div><div class="comment-body"><div class="comment-head"><span class="comment-name">理性吃瓜不站队</span><span class="comment-date">2026-11-02</span></div><p class="comment-text">深度解析里关于感官剥夺实验史的提醒很有必要，很多人把都市传说和真实心理学实验混为一谈。分开看反而更有意思。</p></div></div>
+      <div class="comment-item"><div class="avatar">灰</div><div class="comment-body"><div class="comment-head"><span class="comment-name">灰室访客</span><span class="comment-date">2026-10-30</span></div><p class="comment-text">72小时那个描述我查过一些公开文献，时间感知紊乱确实会出现，但传说里的版本夸张了不少。不过这也不影响它是个好故事。</p></div></div>
+      <div class="comment-item"><div class="avatar">笔</div><div class="comment-body"><div class="comment-head"><span class="comment-name">笔迹侦探</span><span class="comment-date">2026-10-29</span></div><p class="comment-text">匿名信的笔迹分析报告写得挺克制的，样本少就直说样本少，比那些上来就下结论的强多了。左撇子特征那个点我看了半天确实像。</p></div></div>
+      <div class="comment-item"><div class="avatar">地</div><div class="comment-body"><div class="comment-head"><span class="comment-name">地下室没有信号</span><span class="comment-date">2026-10-27</span></div><p class="comment-text">只有下行按钮的电梯这个细节太经典了，我至少在三四个都市传说里见过类似描述，但每次看到还是会觉得心里一紧。</p></div></div>
+      <div class="comment-item"><div class="avatar">镜</div><div class="comment-body"><div class="comment-head"><span class="comment-name">镜面走廊尽头</span><span class="comment-date">2026-10-26</span></div><p class="comment-text">建筑学那个解读我认真看了，用常规手法确实能做出走廊变长的错觉，但传说里那种“走不到头”的描述还是更带感，理智和猎奇各占一半吧。</p></div></div>
+      <div class="comment-item"><div class="avatar">坐</div><div class="comment-body"><div class="comment-head"><span class="comment-name">坐标在海里</span><span class="comment-date">2026-10-24</span></div><p class="comment-text">通讯截获那个坐标我在地图上搜了，真的在公海，周围啥也没有。虽然大概率是巧合或者恶作剧，但确实挺唬人的。</p></div></div>
+      <div class="comment-item"><div class="avatar">报</div><div class="comment-body"><div class="comment-head"><span class="comment-name">旧报纸收藏家</span><span class="comment-date">2026-10-22</span></div><p class="comment-text">1993年地方志对照那个新增内容不错，剪报扫描件虽然模糊但能看出大致日期。环境整治和辐射报告之间到底有没有关系，可能永远说不清了。</p></div></div>
+      <div class="comment-item"><div class="avatar">新</div><div class="comment-body"><div class="comment-head"><span class="comment-name">新来的研究员</span><span class="comment-date">2026-10-20</span></div><p class="comment-text">刚发现这个专题，一口气看了两个小时。分类做得很清楚，不会一上来就被各种碎片信息砸晕。建议新手按FAQ里的顺序看，亲测有效。</p></div></div>
+      <div class="comment-item"><div class="avatar">吐</div><div class="comment-body"><div class="comment-head"><span class="comment-name">今天也想吐槽</span><span class="comment-date">2026-10-18</span></div><p class="comment-text">有些条目的描述写得有点太像小说了，读的时候要不停提醒自己“这是匿名投稿”。不过专题本身标注了可信度，算是有分寸。</p></div></div>
+      <div class="comment-item"><div class="avatar">追</div><div class="comment-body"><div class="comment-head"><span class="comment-name">追更不睡觉</span><span class="comment-date">2026-10-16</span></div><p class="comment-text">每周就等着看最新更新里有没有新口述或者新图纸，比追剧还上瘾。希望以后能多一些技术流的分析文章。</p></div></div>
+      <div class="comment-item"><div class="avatar">创</div><div class="comment-body"><div class="comment-head"><span class="comment-name">创作素材库</span><span class="comment-date">2026-10-14</span></div><p class="comment-text">写悬疑小说来这里找灵感准没错，细节多而且有层次，直接照搬不行但改一改就能用。深度解析里那几个分析角度也很有启发。</p></div></div>
+      <div class="comment-item"><div class="avatar">冷</div><div class="comment-body"><div class="comment-head"><span class="comment-name">冷静一下</span><span class="comment-date">2026-10-12</span></div><p class="comment-text">说实话大部分内容都经不起深究，但作为都市传说合集来看质量不错，起码来源标注和待验证说明做得比较规范，不会让人误以为都是真的。</p></div></div>
+      <div class="comment-item"><div class="avatar">夜</div><div class="comment-body"><div class="comment-head"><span class="comment-name">夜班保安老李</span><span class="comment-date">2026-10-10</span></div><p class="comment-text">“第四层不存在于任何图纸上”这个说法让我想起以前工作过的一栋老楼，有些空间确实不会画在图上。当然我那栋楼只是普通的设备夹层，没这么玄乎。</p></div></div>
+    </div>
+  </section>
+
+  <!-- 相关资讯 -->
+  <section class="section" id="news">
+    <div class="section-head">
+      <h2>追踪资讯</h2>
+      <span class="sub">与秘密研究所相关的近期动态</span>
+    </div>
+    <div class="news-grid">
+      <div class="news-card">
+        <div class="news-date">2026-11-06</div>
+        <h3>悬疑剧《深潜档案》热播，秘密研究所设定再引讨论</h3>
+        <p>该剧第三集出现名为“秘密研究所”的虚构机构，剧中关于地下设施与感官实验的描写引发观众在社交平台对照本专题内容讨论。</p>
+      </div>
+      <div class="news-card">
+        <div class="news-date">2026-11-03</div>
+        <h3>业余无线电社群发起信号比对协作项目</h3>
+        <p>针对此前收录的短波脉冲信号，多个爱好者社群开始自发比对不同年份、不同频段的录音样本，试图寻找规律性线索。</p>
+      </div>
+      <div class="news-card">
+        <div class="news-date">2026-10-30</div>
+        <h3>档案保护爱好者分享老旧纸张鉴别基础方法</h3>
+        <p>一篇面向普通读者的科普文章介绍了纤维观察、酸化程度与荧光反应等简易鉴别手段，被多名读者用于讨论K-17档案用纸年代。</p>
+      </div>
+      <div class="news-card">
+        <div class="news-date">2026-10-25</div>
+        <h3>建筑心理学线上讲座提及“空间错觉与都市传说”</h3>
+        <p>一场公开讲座中，主讲人以镜面走廊类传说为例，讲解照明、比例与反射如何影响人的空间感知，为本专题相关条目提供了学术注脚。</p>
+      </div>
+      <div class="news-card">
+        <div class="news-date">2026-10-21</div>
+        <h3>匿名论坛出现第三张手绘平面图，标注风格明显不同</h3>
+        <p>新图纸在房间命名和符号系统上与之前两版差异较大，部分读者认为可信度较低，也有读者认为可能是不同时期的设施版本。</p>
+      </div>
+      <div class="news-card">
+        <div class="news-date">2026-10-17</div>
+        <h3>口述档案整理方法分享：如何区分记忆偏差与叙述加工</h3>
+        <p>一位有民俗学背景的读者撰写短文，讨论在处理匿名口述材料时如何识别常见记忆偏差与事后加工痕迹，对理解本专题部分条目有参考价值。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>秘密研究所档案库</h4>
+        <p>专注于整理未公开实验、都市传说与神秘事件的碎片化信息。内容来自公开讨论与匿名投稿，均标注来源类型与可信度提示。</p>
+      </div>
+      <div class="footer-col">
+        <h4>快速导航</h4>
+        <p><a href="/#hot">热门档案</a></p>
+        <p><a href="/#latest">最新更新</a></p>
+        <p><a href="/#deep">深度解析</a></p>
+        <p><a href="/#faq">常见疑问</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>友情链接占位</h4>
+        <p><a href="#">都市传说研究站</a></p>
+        <p><a href="#">未解事件档案馆</a></p>
+        <p><a href="#">悬疑创作资源库</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 秘密研究所专题站 · 内容仅供文化研究与兴趣阅读参考 · 请理性看待未核实信息</p>
+      <p style="margin-top:4px;">本站部分内容基于网络公开讨论整理，不构成事实认定。如有内容异议，请联系反馈。</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
